@@ -1,0 +1,4 @@
+module-path: ./ci
+events:
+  - pull_request
+  - push
