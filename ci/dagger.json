@@ -1,5 +1,12 @@
 {
   "name": "ci",
   "sdk": "go",
+  "dependencies": [
+    {
+      "name": "pocketci",
+      "source": "github.com/franela/pocketci/modules/pocketci@9483aa355a67d08f7fd49a200e6dca096d784777"
+    }
+  ],
+  "source": ".",
   "engineVersion": "v0.12.5"
 }
